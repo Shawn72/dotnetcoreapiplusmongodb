@@ -3,17 +3,10 @@ using CorePlusMongoDBApi.Models;
 using CorePlusMongoDBApi.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CorePlusMongoDBApi
 {
@@ -29,6 +22,10 @@ namespace CorePlusMongoDBApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //my mongo connection strings
+            //1 . "ConnectionString": "mongodb://localhost:27017",
+            //2. "ConnectionString": "mongodb+srv://shawn72:2950Cherry*30@cluster0.k12xz.mongodb.net/ecommercestore?retryWrites=true&w=majority",
+ 
             services.Configure<EcommerceDBSettings>(
                 Configuration.GetSection(nameof(EcommerceDBSettings)));
 
