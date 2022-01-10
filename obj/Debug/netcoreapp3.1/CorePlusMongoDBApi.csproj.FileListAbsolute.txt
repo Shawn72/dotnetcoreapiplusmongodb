@@ -23,6 +23,7 @@ D:\very@Personal\mongo\CorePlusMongoDBApi\bin\Debug\netcoreapp3.1\runtimes\win\n
 D:\very@Personal\mongo\CorePlusMongoDBApi\bin\Debug\netcoreapp3.1\runtimes\linux\native\libmongocrypt.so
 D:\very@Personal\mongo\CorePlusMongoDBApi\bin\Debug\netcoreapp3.1\runtimes\osx\native\libmongocrypt.dylib
 D:\very@Personal\mongo\CorePlusMongoDBApi\bin\Debug\netcoreapp3.1\runtimes\win\native\mongocrypt.dll
+D:\very@Personal\mongo\CorePlusMongoDBApi\obj\Debug\netcoreapp3.1\CorePlusMongoDBApi.csproj.AssemblyReference.cache
 D:\very@Personal\mongo\CorePlusMongoDBApi\obj\Debug\netcoreapp3.1\CorePlusMongoDBApi.GeneratedMSBuildEditorConfig.editorconfig
 D:\very@Personal\mongo\CorePlusMongoDBApi\obj\Debug\netcoreapp3.1\CorePlusMongoDBApi.AssemblyInfoInputs.cache
 D:\very@Personal\mongo\CorePlusMongoDBApi\obj\Debug\netcoreapp3.1\CorePlusMongoDBApi.AssemblyInfo.cs
